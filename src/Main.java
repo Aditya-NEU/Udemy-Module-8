@@ -12,6 +12,11 @@ public class Main {
     // array and sort them and return the new sorted array.
 
     public static void main(String[] args) {
-        
+
+  SortArrays sortArrays= new SortArrays();
+  int[]myIntegers= sortArrays.getIntegers(5);
+  sortArrays.sortArray(myIntegers);
+
     }
+
 }
