@@ -5,6 +5,7 @@ public class SortArrays {
     private static Scanner scanner= new Scanner(System.in);
 
     public int[] getIntegers(int capacity) {
+
         int[] array = new int[capacity];
         System.out.println("Enter " + capacity +" integer values:\r");
         for(int i=0; i<array.length; i++) {
