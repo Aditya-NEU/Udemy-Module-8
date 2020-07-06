@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class SortArrays {
 
     private static Scanner scanner= new Scanner(System.in);
-    private int arr[];
-    private int n;
 
     public int[] getIntegers(int capacity) {
         int[] array = new int[capacity];
@@ -24,7 +22,7 @@ public class SortArrays {
     }
 
     public int[] sortArray(int[] arr){
-        System.out.println("I am here");
+        System.out.println("Sorting array in descending order.");
         int temp=0;
         for(int i=0;i<arr.length;i++){
             for(int j=i+1;j<arr.length;j++){
